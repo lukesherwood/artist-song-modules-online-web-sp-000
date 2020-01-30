@@ -8,6 +8,7 @@ include Paramable, Memorable::InstanceMethods
   @@artists = []
 
   def initialize
+    super
     @songs = []
   end
   
