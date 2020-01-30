@@ -8,7 +8,6 @@ include Paramable, Memorable::InstanceMethods
   @@artists = []
 
   def initialize
-    @@artists << self
     @songs = []
   end
   
